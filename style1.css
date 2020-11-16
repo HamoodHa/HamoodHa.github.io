@@ -1,0 +1,118 @@
+/*
+	Codes couleurs nécessaires
+
+	background-color : #23a5ff; //Fond d'écran
+	background-color: #113366; //bleu foncé (blocs)
+	color : #ffaa33; //Orange
+*/
+/*Reset CSS*/
+html, body
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Balises*/
+body
+{
+	background-color : #23a5ff; /*Couleur de Fond d'écran*/
+
+}
+
+a{
+	text-decoration: none;
+}
+
+/*Id*/
+#pageweb /*Permet de styliser le cadre englobant l'entièreté de la page*/
+{
+	border: 1px solid red;
+	width: 828px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#en_tete /*Permet de styliser le cadre supérieur de la page*/
+{
+	border: 1px solid blue;
+	/*Gestion de l'image dans le bloc*/
+	background-image: url('../images/banniere.jpg');
+	background-repeat: no-repeat;
+	background-position: center middle;
+	background-size: cover;
+	/*Fin de la gestion d'image*/
+	height: 160px;
+	margin: 10px;	
+	border-radius: 	10px 10px 0 0;
+	box-shadow: 7px 7px 3px #336699; 
+}
+
+#textHaut{
+	display: flex;
+	padding-top: 100px;
+}
+
+#NavBar{
+	width: 40%;
+}
+
+#NavBar li {
+	display : inline;
+	margin-right: 25px;
+	background-color : #606060;
+	border: 1.5px solid green;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#NavBar li a{
+	color: #fff;
+}
+
+#text_defil{
+	width: 60%;
+	padding: 20px 0; /*Effet permettant d'épaissir la hauteur du bloc avec des marges verticales intérieures*/
+	background-color: #113366;
+	color: #ffaa33;
+	border-radius: 	10px 0 0 0;
+}
+
+#main /*Permet de styliser le cadre englobant les menus et le corps principal de la page*/
+{
+	border: 1px solid green;
+	border: 1px sol
+oser 
+
+
+
+	margin: 10px;	
+	display: flex; /*Effet permettant de disposer 2 blocs div les uns à coté des autres*/
+
+}
+
+#menu /*Permet de styliser le cadre englobant les menus de la page*/
+{
+	border: 1px solid orange;
+	margin: 10px;	
+	width: 17%;
+}
+
+#page /*Permet de styliser le cadre englobant le corps de la page*/
+{
+	border: 1px solid orange;
+	margin: 10px 10px 10px 3%;	
+	width: 80%;
+}
+
+#pied_de_page /*Permet de styliser le cadre englobant le pied de la page*/
+{
+	/*border: 1px solid violet;*/
+	border-radius: 	10px 0 0 10px;
+	margin: 10px;	
+	padding: 20px 0; /*Effet permettant d'épaissir la hauteur du bloc avec des marges verticales intérieures*/
+	background-color: #113366;
+	color: #ffaa33;
+	text-align: center;	 	
+}
+
